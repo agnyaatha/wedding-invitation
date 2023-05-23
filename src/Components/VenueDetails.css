@@ -1,0 +1,164 @@
+.venue-details-wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    font-family: 'Tangerine', cursive;
+
+}
+
+.invite-details {
+    flex: 30%;
+    /* border: 2px solid red; */
+    font-size: 3rem;
+    text-align: center;
+}
+
+.invite-details>* {
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+
+.svg-image {
+    max-width: 100%;
+    padding: 0;
+    object-fit: contain;
+}
+
+.invite-image-wrapper {
+    /* border: 2px solid red; */
+    flex: 40%;
+    padding: 30px;
+    box-sizing: border-box;
+    /* max-height: 90vh; */
+}
+
+.invite-image {
+    max-height: 90vh;
+    max-width: 100%;
+    /* max-height: 100%; */
+    object-fit: fill;
+    border: 10px solid yellow;
+    border-radius: 40px;
+    /* padding: 20px; */
+    /* object-position: bottom; */
+    box-shadow: -1px -1px 79px 12px rgba(244, 244, 88, 0.77);
+    -webkit-box-shadow: -1px -1px 79px 12px rgba(244, 244, 88, 0.77);
+    -moz-box-shadow: -1px -1px 79px 12px rgba(244, 244, 88, 0.77);
+}
+
+.countdown-timer-wrapper {
+    flex: 30%;
+    /* border: 2px solid red; */
+    font-size: 3rem;
+    text-align: center;
+}
+
+.countdown-timer-wrapper>* {
+    padding: 30px;
+}
+
+.days-left {
+    margin: 0 25%;
+    width: 50%;
+    box-sizing: border-box;
+    border: 10px solid yellow;
+    border-radius: 20%;
+    color: yellow;
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    /* padding: auto auto; */
+}
+
+.days-togo {
+    color: yellow;
+}
+
+.location-icon {
+    border: 2px solid yellow;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 30%;
+    padding: 30px;
+    transition: 0.15;
+}
+
+.location-icon-img {
+    /* border: 2px solid yellow; */
+    /* width: inherit; */
+    width: inherit;
+    /* width: 50px; */
+    background-color: yellow;
+    /* padding-top: 20px; */
+    /* padding: 0 0; */
+    /* position: relative; */
+    /* border-radius: 30%; */
+    /* padding: 0; */
+    /* transition: 0.15; */
+}
+
+.location-icon:hover {
+    cursor: pointer;
+    box-shadow: -1px -1px 49px 8px rgba(244, 244, 88, 0.77);
+    -webkit-box-shadow: -1px -1px 49px 8px rgba(244, 244, 88, 0.77);
+    -moz-box-shadow: -1px -1px 49px 8px rgba(244, 244, 88, 0.77);
+}
+
+.contact-dev {
+    padding-top: 50px;
+    /* position: relative; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+    text-align: right;
+    /* bottom: 5px; */
+    /* right: 5px; */
+    padding: 0;
+    padding-right: 20px;
+    /* bottom: 5px; */
+    /* right: 0; */
+}
+
+.contact-dev>img {
+    padding: 0;
+    object-fit: cover;
+}
+
+.contact-dev>a {
+    text-decoration: none;
+    color: white;
+    /* padding-bottom: 10px; */
+    /* padding: 0; */
+}
+
+@media only screen and (max-width: 600px) {
+    .venue-details-wrapper {
+        display: flex;
+        flex-direction: column;
+        /* font-size: 1.5rem; */
+        height: auto;
+        /* min-height: 100vh; */
+        /* overflow: visible; */
+    }
+
+    .invite-details {
+        font-size: 2rem;
+        /* height: 100vh; */
+    }
+
+    .countdown-timer-wrapper {
+        font-size: 2rem;
+    }
+
+    .location-icon {
+        width: 30px;
+        height: 30px;
+        padding: 20px;
+        /* height: auto; */
+        /* margin-bottom: 10px; */
+    }
+}
