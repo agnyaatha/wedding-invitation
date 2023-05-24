@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/wedding-invitation/static/css/main.43ff5b6e.css",
-    "main.js": "/wedding-invitation/static/js/main.785760b5.js",
+    "main.js": "/wedding-invitation/static/js/main.6b6df6c3.js",
     "static/js/787.9b74c651.chunk.js": "/wedding-invitation/static/js/787.9b74c651.chunk.js",
     "static/media/top-flower.png": "/wedding-invitation/static/media/top-flower.dab12c44a0224d5ced87.png",
     "static/media/bottom-flower.png": "/wedding-invitation/static/media/bottom-flower.fa0e727cec3d0c65836c.png",
     "static/media/hero-image.JPG": "/wedding-invitation/static/media/hero-image.68e78b608c40b1f57b80.JPG",
     "static/media/invite-image.jpg": "/wedding-invitation/static/media/invite-image.ae89fe9f83ac17561e6b.jpg",
+    "static/media/Muhurta.png": "/wedding-invitation/static/media/Muhurta.db01724f6302b4df55af.png",
+    "static/media/Rec.png": "/wedding-invitation/static/media/Rec.c996c04858f9c37da924.png",
     "static/media/hindu-wedding.png": "/wedding-invitation/static/media/hindu-wedding.eb3cafc726013f808681.png",
-    "static/media/reception-details.svg": "/wedding-invitation/static/media/reception-details.e2d8925b63cb7796cd72913d254c6f7a.svg",
-    "static/media/marriage-details.svg": "/wedding-invitation/static/media/marriage-details.899973e5a0b8d51345205b4f962de9a0.svg",
     "index.html": "/wedding-invitation/index.html",
     "static/media/map-location-dot-solid.svg": "/wedding-invitation/static/media/map-location-dot-solid.3c05bbac3e64420fb70ec86724031b95.svg",
     "main.43ff5b6e.css.map": "/wedding-invitation/static/css/main.43ff5b6e.css.map",
-    "main.785760b5.js.map": "/wedding-invitation/static/js/main.785760b5.js.map",
+    "main.6b6df6c3.js.map": "/wedding-invitation/static/js/main.6b6df6c3.js.map",
     "787.9b74c651.chunk.js.map": "/wedding-invitation/static/js/787.9b74c651.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43ff5b6e.css",
-    "static/js/main.785760b5.js"
+    "static/js/main.6b6df6c3.js"
   ]
 }
