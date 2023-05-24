@@ -1,6 +1,6 @@
 import "./VenueDetails.css";
-import receptionDetails from "../images/reception-details.svg";
-import marriageDetails from "../images/marriage-details.svg";
+import receptionDetails from "../images/Rec.png";
+import marriageDetails from "../images/Muhurta.png";
 import inviteImage from "../images/invite-image.jpg";
 import locationIcon from "../images/map-location-dot-solid.svg";
 import instaIcon from "../images/icons8-instagram-32.png";
