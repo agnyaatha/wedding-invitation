@@ -19,9 +19,9 @@ const Hero = () => {
             <img src={topFlower} alt="" className="top-flower" />
           </div>
           <div className="hero-details">
-            <div>Madhuri R</div>
+            <div>Latha</div>
             <div>Weds</div>
-            <div>Sanjay Nambiar</div>
+            <div>Lambodara</div>
           </div>
           <div className="bottom-flower-wrapper">
             <img src={bottomFlower} alt="" className="bottom-flower" />
